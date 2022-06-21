@@ -1,0 +1,53 @@
+.skills
+{
+    margin: 1rem;
+}
+.skills__box
+{
+    background-color: white;
+    padding: 16px;
+}
+.skills__line
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 16px;
+}
+.skills__title
+{
+    text-align: center;
+    font-size: 22px;
+}
+.skills__name
+{
+    color: #464646;
+    font-weight: 700;
+    font-size: 16px;
+}
+@media screen and (min-width: 768px) 
+{
+    .skills__line
+    {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 32px;
+    }
+    .skills
+    {
+        margin: 2rem;
+    }
+}
+@media screen and (min-width: 1440px) 
+{
+    .skills__line
+    {
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 32px;
+    }
+    .skills
+    {
+        margin: 2rem 7rem;
+    }
+}

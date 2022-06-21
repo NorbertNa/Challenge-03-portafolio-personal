@@ -1,0 +1,96 @@
+.formcontato
+{
+    background-color: #EAF2FD;;
+}
+.formcontato__img
+{
+    display: none;
+}
+.formcontato__form
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.formcontato__input
+{
+    margin: 1rem 0;
+    height: 56px;
+    border-radius: 0;
+    border: none;
+    background-color: white;
+    font-family: 'Raleway';
+    font-size: 16px;
+    box-shadow: 0 3px #C8C8C8;
+    transition: 0.5s;
+}
+.formcontato__input:focus
+{
+    outline: none;
+    border: none;
+    box-shadow: 0 3px #2A7AE4;
+}
+.formcontato__textarea
+{
+    margin: 1rem 0;
+    border: none;
+    resize: none;
+    height: 133px;
+    font-family: 'Raleway';
+    font-size: 16px;
+    box-shadow: 0 3px #C8C8C8;
+    width: 100%;
+}
+.formcontato__textarea:focus
+{
+    outline: none;
+    border: none;
+    box-shadow: 0 3px #2A7AE4;
+}
+.formcontato__botao
+{
+    margin: 1rem 0;
+    height: 40px;
+    width: fit-content;
+    color: white;
+    background-color: #2A7AE4;
+    border: none;
+    outline: none;
+}
+.formcontato__contacto
+{
+    padding: 32px;
+}
+.formcontato__title
+{
+    font-size: 22px;
+}
+.formcontato__subtext
+{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+@media screen and (min-width: 768px) 
+{
+    .formcontato__botao
+    {
+        width: 25%;
+    }
+}
+@media screen and (min-width: 1440px)
+{
+    .formcontato__contacto
+    {
+        margin: 2rem 7rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .formcontato__img
+    {
+        display: inline-block;
+        width: auto;
+    }
+}

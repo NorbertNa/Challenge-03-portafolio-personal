@@ -1,0 +1,33 @@
+.about
+{
+    background-color: #EAF2FD;
+}
+.about__container
+{
+    margin: 1rem;
+    padding-bottom: 1rem;
+}
+.about__title
+{
+    padding-top: 1rem;
+    font-size: 22px;
+}
+.about__paragraph
+{
+    color: #464646;
+    font-size: 14px;
+}
+@media screen and (min-width: 768px)  
+{
+    .about__container
+    {
+        margin: 2rem;
+    }
+}
+@media screen and (min-width: 1440px)
+{
+    .about__container
+    {
+        margin: 2rem 7rem;
+    }
+}
